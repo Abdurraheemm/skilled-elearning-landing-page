@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+  padding-top: 12px;
+}
+.head--info {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin-bottom: 200px;
+}
+.main-head {
+  width: 457px;
+  height: 359px;
+}
+.main-heading {
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+.hero-img {
+  width: 900px;
+  position: absolute;
+  top: -90px;
+  right: -250px;
+  z-index: -1;
+}
+.btn {
+  background-color: rgb(19, 24, 63);
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 34px;
+  cursor: pointer;
+}
+.btn-nav {
+}
+.btn-head {
+  background: linear-gradient(#ff6f48, #f02aa6);
+}
+header p {
+  color: rgb(131, 134, 154);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 34px;
+}
+
+/* courses section  */
+
+.courses-sec {
+  /* width: 350px;
+  height: 300px; */
+  /* background-color: #fff; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 322px 322px;
+  column-gap: 34px;
+  row-gap: 64px;
+  margin-bottom: 64px;
+}
+.course1 {
+  background-color: #fff;
+  padding: 34px 24px;
+  font-size: 2.3rem;
+  font-weight: 600;
+  padding-top: 54px;
+  border-radius: 11px;
+  background: linear-gradient(#ff6f48, #f02aa6);
+  color: #fff;
+}
+.course2 {
+  background-color: #fff;
+  padding: 12px 24px;
+  border-radius: 11px;
+}
+.course3 {
+  background-color: #fff;
+  padding: 12px 24px;
+  border-radius: 11px;
+}
+.course4 {
+  background-color: #fff;
+  padding: 12px 24px;
+  border-radius: 11px;
+}
+.course5 {
+  background-color: #fff;
+  padding: 12px 24px;
+  border-radius: 11px;
+}
+.course6 {
+  background-color: #fff;
+  padding: 12px 24px;
+  border-radius: 11px;
+}
+.course-title {
+  margin-bottom: 19px;
+}
+.course-detail {
+  color: rgb(131, 134, 154);
+  font-size: 1.1rem;
+  margin-bottom: 64px;
+}
+a {
+  text-decoration: none;
+  color: #f74780;
+  font-weight: 600;
+}
+.course-img {
+  /* top: 20px; */
+  transform: translateY(-72%);
+}
+
+/* Footer  */
+
+footer {
+  background-color: #13183f;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+.btn-footer {
+  background: linear-gradient(#4851ff, #f02aa6);
+}
